@@ -1,3 +1,6 @@
+(require 'rx)
+
+;;;###autoload
 (defun perl6db (command-line)
   "Run perl6db on program FILE in buffer *gud-FILE*.
 The directory containing FILE becomes the initial working directory
